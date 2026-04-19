@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e8f5e9;
+  color: #1b5e20;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 30px 20px;
+}
+
+.app {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+  margin-bottom: 25px;
+}
+
+.header-sub {
+  font-size: 10px;
+  letter-spacing: 3px;
+  color: #358738;
+  margin-bottom: 4px;
+}
+
+.header h1 {
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: #1b5e20;
+}
+
+.header h1 span {
+  color: #2e7d32;
+}
+
+.header-line {
+  height: 2px;
+  width: 50px;
+  background-color: #2e7d32;
+  margin-top: 6px;
+}
+
+/* CARD */
+.card {
+  background-color: #f1f8e9;
+  border: 1px solid #c5e1a5;
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 12px rgba(46, 125, 50, 0.1);
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.card-title {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #358738;
+  text-transform: uppercase;
+}
+
+/* FORM */
+.form-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.form-row input {
+  flex: 1;
+  min-width: 130px;
+  background-color: #e8f5e9;
+  border: 1px solid #a5d6a7;
+  border-radius: 6px;
+  color: #1b5e20;
+  padding: 9px 12px;
+  font-size: 13px;
+  outline: none;
+}
+
+.form-row input:focus {
+  border-color: #2e7d32;
+}
+
+.form-row input::placeholder {
+  color: #a5d6a7;
+}
+
+.form-row button {
+  background-color: #2e7d32;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 9px 20px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.form-row button:hover {
+  background-color: #1b5e20;
+}
+
+/* STATS */
+.stats-card {
+  display: flex;
+  gap: 30px;
+}
+
+.stat-box {
+  flex: 1;
+}
+
+.stat-label {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #358738;
+  margin-bottom: 4px;
+}
+
+.stat-num {
+  font-size: 30px;
+  font-weight: 700;
+  color: #1b5e20;
+}
+
+.stat-num.green {
+  color: #2e7d32;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #358738;
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid #c5e1a5;
+}
+
+tbody tr {
+  border-bottom: 1px solid #dcedc8;
+}
+
+tbody tr:last-child {
+  border-bottom: none;
+}
+
+tbody tr:hover {
+  background-color: #e8f5e9;
+}
+
+tbody td {
+  padding: 12px 10px;
+  font-size: 13px;
+  color: #1b5e20;
+}
+
+/* Score colors */
+.score-pass {
+  color: #2e7d32;
+  font-weight: 700;
+}
+
+.score-fail {
+  color: #c62828;
+  font-weight: 700;
+}
+
+/* Pass/Fail Badge */
+.badge {
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.badge.pass {
+  background-color: #c8e6c9;
+  color: #2e7d32;
+  border: 1px solid #358738;
+}
+
+.badge.fail {
+  background-color: #ffcdd2;
+  color: #c62828;
+  border: 1px solid #ef9a9a;
+}
+
+/* Update input + button */
+tbody td input {
+  width: 65px;
+  background-color: #e8f5e9;
+  border: 1px solid #358738;
+  border-radius: 4px;
+  color: #1b5e20;
+  padding: 5px 7px;
+  font-size: 12px;
+  outline: none;
+  margin-right: 6px;
+}
+
+tbody td input:focus {
+  border-color: #2e7d32;
+}
+
+tbody td button {
+  background-color: transparent;
+  border: 1px solid #358738;
+  border-radius: 4px;
+  color: #2e7d32;
+  padding: 5px 10px;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+tbody td button:hover {
+  background-color: #2e7d32;
+  color: #ffffff;
+}
